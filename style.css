@@ -1,1 +1,37 @@
-dfsdf
+header {
+    padding: 60px;
+    text-align: center;
+    background: #00834F ;
+    color: white;
+    font-size: 60px;
+    font-variant:normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+}
+
+button {
+    background: #00834F ;
+    color: white;
+    border: .5px solid crimson;
+    border-radius: 50px;
+    padding: 20px;
+    display: inline-block;
+    font-size:60px;
+    font-family: monospace;
+    text-align: center;
+    width: 50%;
+    }
+
+.para {
+    font-size: smaller;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
