@@ -43,6 +43,10 @@ button:active {
         transform: translateY(4px);
       }
 
+button:hover {
+    background-color: lightgreen ;
+}
+
 #board {
     background-color: #00834F;
     display: flex;
@@ -60,6 +64,7 @@ button:active {
    
 }
 
+
 .cell {
     border: 3px black;
     width: 300px;
@@ -72,9 +77,12 @@ button:active {
     display: flex;
     justify-content: center;
     align-content: center;
-
-
 }
+
+.cell:hover {
+    background-color: lightgreen
+}
+
 
 #setup {
     display: flex;

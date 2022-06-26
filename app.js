@@ -1,7 +1,15 @@
 const cellElements = document.querySelectorAll('.cell');
 const board = document.getElementById('board')
-// Pull in the result text from DOM
 const resultElement = document.getElementById('result');
+const cells = document.querySelectorAll(".cell");
+const statusText = document.querySelectorAll("#StatusText");
+const restartButton = document.querySelectorAll("#restartButton"); 
+const playerX = 'x';
+const playerO ='o';
+let currentPlayer = 'x' 
+let gameActive = true;
+let gameState = ["", "", "", "", "", "", "", "", ""];
+const randomPlayer = () => Math.random() > 0.5 ? "X" : "O";
 
 // Add event listener
 cellElements.forEach((cell, index) => {
