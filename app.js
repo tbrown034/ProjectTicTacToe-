@@ -21,7 +21,7 @@ const winConditions = [
 
 let moves = ["", "", "", "", "", "", "", "", ""]
 
-let PlayerOneName ='X'
+let PlayerOneName ='x'
 let PlayerTwoName ='0'
 let activeGame = false;
 
@@ -33,3 +33,40 @@ const gameState = {
       [null, null, null]
     ]
   }
+
+// Functions //
+
+function GetInputValue1 (){
+  var inputValue1 = document.getElementsbyId("PlayerOneName").value;
+  alert(inputValue1);
+}
+
+function howManyPlayers(){
+
+}
+
+
+function startGame (){
+  cells.forEach()
+
+}
+
+function clickCell(){
+
+}
+
+function updateBoard(cell, index){
+
+}
+
+function changePlayer(){
+
+}
+
+function CheckWin(){
+
+}
+
+function reseteGame(){
+
+}
