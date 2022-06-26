@@ -27,14 +27,13 @@ body {
 button {
     background: #00834F ;
     color: white;
-    border: .5px solid crimson;
     border-radius: 50px;
     padding: 20px;
     display: inline-block;
-    font-size:60px;
+    font-size:40px;
     font-family: monospace;
     text-align: center;
-    width: 33%;
+    width: 22%;
     cursor: pointer;
     }
     
@@ -142,4 +141,6 @@ padding-top: 20px;
 body {
     background-color: aquamarine;
 }
+
+
 

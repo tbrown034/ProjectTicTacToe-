@@ -12,11 +12,11 @@ cellElements.forEach((cell, index) => {
 
  
 function nameOneFunc() {
-  var onefunc = document.getElementById("myText").value;
+  var onefunc = document.getElementById("PlayerOneName").value;
   document.getElementById("play1name").innerHTML = onefunc;
 }
 
 function nameTwoFunc() {
-  var twofunc = document.getElementById("myText2").value;
+  var twofunc = document.getElementById("PlayerTwoName").value;
   document.getElementById("play2name").innerHTML = twofunc;
 }
