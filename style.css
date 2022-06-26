@@ -1,11 +1,18 @@
+* {
+    align-content: center;
+    text-align: center;
+}
+
+
 header {
-    padding: 60px;
+    padding: 30px;
     text-align: center;
     background: #00834F ;
     color: white;
     font-size: 60px;
     font-variant:normal;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 400 px;
 }
 
 body {
@@ -27,11 +34,84 @@ button {
     font-size:60px;
     font-family: monospace;
     text-align: center;
-    width: 50%;
+    width: 33%;
     }
+
+#board {
+    background-color: #00834F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 900px;
+    width: 900px;
+    margin: 0 auto;
+   
+}
+
+.cell {
+    border: 3px black;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 0 1px black;
+    border: 3px black;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 100px;
+
+
+}
 
 .para {
     font-size: smaller;
     font-weight: lighter;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    text-align: center;
+    background: #00834F ;
+    color: white;
+    font-size: 10;
+    font-variant:normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
+
+#winningMessage {
+padding-top: 20px;
+
+}
+
+
+.buttonName {
+    background: #00834F ;
+    color: white;
+    border-radius: 50px;
+    padding: 1px;
+    display: inline-block;
+    font-size:29px;
+    font-family: monospace;
+    text-align: center;
+    width: 300px;
+    padding-bottom: 10px;
+    border-color: #00834F;
+    padding-top: 10px;
+    justify-content: center;
+
+}
+
+.enterName {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    
+}
+
+body {
+    background-color: aquamarine;
 }
