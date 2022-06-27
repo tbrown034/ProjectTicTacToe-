@@ -76,12 +76,20 @@ button:hover {
     line-height: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
     align-content: center;
 }
 
 .cell:hover {
     background-color: lightgreen
 }
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.grid-cell:not(.disabled):hover {
+    background: #00834F;}
 
 
 #setup {
@@ -150,5 +158,41 @@ body {
     background-color: aquamarine;
 }
 
+.x-hover:hover:after{
+    content: x;
+    opacity: .4;
+}
 
+.o-hover:hover:after{
+    content: o;
+    opacity: .4;
+}
+
+
+.x::after {
+    content: 'x';
+}
+
+.o::after {
+    content: 'o';
+}
+
+.game-over {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgb(0 0 0 / 50%) 0 0 0 9999px;
+}
+
+.game-over-text {
+    position: absolute;
+    top: -200px;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transform: translateX(-30%);
+}
 
